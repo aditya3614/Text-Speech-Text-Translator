@@ -11,11 +11,10 @@ body{
 }
 .back{
   position: absolute;
-  bottom: 10%;
+  bottom: 0;
   left: 50%;
    transform: translate(-50%,-50%);
-   margin: 1.9rem 0;
-   padding: 0.7rem;
+   padding: 0 4px;
    border-radius: 8px;
    border: none;
    background-color:#6F5ADC ;
