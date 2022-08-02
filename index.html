@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/086f91b6b7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Epilogue:wght@500&family=Lato:wght@300&family=League+Spartan&family=Plus+Jakarta+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TEXT TO SPEECH</title>
+</head>
+<body>
+     <div class="container" id="box1">
+        <button class="btn1 item" id="button1">Text to Speech Convertor</button>
+        <button class="btn2 item" id="button2">Speech to Text Convertor</button>
+     </div>
+        <div class="container2 hide">
+            <textarea name="textarea" id="txt" cols="30" rows="5" class="item"></textarea>
+            <select name="select" id="select" class="item"></select>
+            <button class="convertBtn item">Text to Speech</button>
+
+        </div>
+
+        <div class="wrapper">
+
+        <div class="container3 hide">
+            <textarea name="" class="ok" cols="30" rows="5" placeholder="please speake something in mic" id="inputTxt"></textarea>
+            <select name="select" id="selectt" class="item">
+                <option value="en-GB">English</option>
+                <option value="hi-GB">Hindi</option>
+            </select>
+            <i class="fa-solid fa-microphone ok mic icon-4x"></i>
+        </div>
+    </div>
+<div class="btn">
+    <button class="back hide">back</button>
+</div>
+
+        <script src="script.js"></script>
+</body>
+</html>

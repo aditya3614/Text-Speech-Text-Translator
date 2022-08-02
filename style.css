@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #0a0a0b;
+    background: url("low-angle-shot-mesmerizing-starry-sky.jpg") no-repeat center;
+}
+.btn{
+    display: flex;
+}
+.back{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+   transform: translate(-50%,-50%);
+   margin: 1.9rem 0;
+   padding: 0.7rem;
+   border-radius: 8px;
+   border: none;
+   background-color:#6F5ADC ;
+   color: #ffff;
+   font-family: 'poppins', sans-serif;
+   font-weight: 500;
+}
+.back:hover{
+    background-color: whitesmoke;
+    color: grey;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 2px solid rgb(250, 249, 249); */
+    padding: 3.6rem 6.9rem;
+    background-color: #eff5ff;
+    border-radius: 8px;
+    /* display: none; */
+    transition: all 0.3s;
+}
+.container button:hover{
+    transform: scale(1.1);
+}
+.item{
+    width: 100%;
+    margin: 1.2rem 0;
+    padding: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    background-color:#6F5ADC ;
+    color: #ffff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 2px solid rgb(250, 249, 249); */
+    padding: 3.6rem 6.9rem;
+    background-color: #eff5ff;
+    border-radius: 8px;
+}
+.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+.container2 #txt{
+    background-color: white;
+    border: 1px solid black;
+    /* text-decoration: none; */
+    color: #0a0a0b;
+}
+.container2 select{
+    background-color: rgb(187, 187, 187);
+    border: 1px solid black;
+    color: black;
+}
+.container2 button{
+    color: white;
+    width:max-content;
+    transition: all 0.3s ease-in-out;
+}
+.container2 button:hover{
+    transform: scale(1.1);
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 2px solid rgb(250, 249, 249); */
+    padding: 3.6rem 6.9rem;
+    background-color: #eff5ff;
+    border-radius: 8px;
+    /* display: none; */
+    transition: all 0.3s;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+}
+
+@media (max-width:546px) {
+    .container3{
+        width: 6.6rem;
+    }
+}
+
+.container3 .ok{
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+.mic{
+    font-size: 30px;
+}
+.mic:hover{
+    color: rebeccapurple;
+}
+
+
+
+
+
+
